@@ -10,7 +10,7 @@
 - Универсальный API-клиент: `src/services/api.ts`
 - Хук отложенного лоадера: `src/hooks/useDelayedLoading.ts`
 - Базовый компонент загрузки: `src/components/Loading`
-- Папка для схем: `schemas/`
+- Папка для схем: `src/schemas/`
 - Прокси для API через `.env` (`VITE_API_URL`, `VITE_API_PREFIX`)
 
 ## Структура
@@ -21,7 +21,7 @@
 - `src/hooks/` - переиспользуемые хуки
 - `src/services/` - API и сервисный слой
 - `src/types/` - общие TypeScript-типы
-- `schemas/` - схемы (JSON Schema/OpenAPI/ER-диаграммы и т.д.)
+- `src/schemas/` - схемы (JSON Schema/OpenAPI/ER-диаграммы и т.д.)
 
 ## Переменные окружения
 
